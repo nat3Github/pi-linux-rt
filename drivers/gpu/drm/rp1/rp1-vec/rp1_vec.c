@@ -353,7 +353,7 @@ vgood:
 	if ((mode->clock == 13500 || mode->clock == 9000) &&
 	    mode->hdisplay <= 720)
 		return MODE_OK;
-	if ((mode->clock == 15428 || mode->clock <= 15429) &&
+	if ((mode->clock == 15428 || mode->clock == 15429) &&
 	    mode->hdisplay <= 800)
 		return MODE_OK;
 	return MODE_BAD;
