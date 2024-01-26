@@ -331,7 +331,7 @@ static const struct rp1vec_hwmode vintage_405line_mode = {
 	.ref_hfp = 14,
 	.ref_vfp = 0,
 	.interlaced = true,
-	.first_field_odd = false,
+	.first_field_odd = true, //false,  // try this?
 	.yuv_scaling = 0x1c800000,
 	.back_end_regs = {
 		0x06d528c5, 0x06f61418, 0x14d503cc, 0x00000000,
